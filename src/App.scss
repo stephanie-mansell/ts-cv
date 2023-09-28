@@ -1,0 +1,63 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-colour);
+  color: var(--font-colour);
+  background: #0000000f;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+@media (min-width: 1060px) {
+  body {
+    .header {
+      .name {
+        font-size: 40px;
+        font-weight: 600;
+      }
+
+      .main-job-title {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+#root {
+  height: 90vh;
+}
+
+.CV {
+  width: 50vw;
+  height: 100%;
+
+  background-color: var(--bg-colour);
+  color: var(--primary-colour);
+  box-shadow: 0px 0px 14px 9px rgba(0, 0, 0, 0.18);
+
+  border-radius: 20px;
+}
+
+.content * {
+  transition: 0.1s;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  padding-bottom: 0;
+
+  overflow: scroll;
+  overflow-x: hidden;
+
+  &__right {
+    flex: 1;
+  }
+}

@@ -1,0 +1,20 @@
+[data-theme="light"] {
+  --primary-colour: #000000;
+  --secondary-colour: #536390;
+  --font-colour: #424242;
+  --bg-colour: white;
+  --header-colour: #fdfdfd;
+  --progress-colour: #dcdcdc;
+  --link-colour: #dcdcdc;
+}
+
+[data-theme="dark"] {
+  --primary-colour: #fcf7ff;
+  --secondary-colour: #f25a5796;
+  --font-colour: #e1e1ff;
+  --bg-colour: #08060edb;
+  --header-colour: #08060edb;
+  --link-colour: black;
+  --links-colour: #25ced1;
+  --progress-colour: #2b2b4b;
+}

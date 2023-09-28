@@ -1,0 +1,17 @@
+.icon {
+  color: #f74e4b;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.link:hover {
+  color: #f74e4b;
+  transform: translateY(1px);
+}
